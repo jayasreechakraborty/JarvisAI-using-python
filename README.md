@@ -124,7 +124,7 @@ This project is open-source and available for educational or personal use. Feel 
 
 #Author
 
-Made with care by RC for learning and experimenting with AI.
+Made with care by RC(JAYASREE) for learning and experimenting with AI.
 
 
 
