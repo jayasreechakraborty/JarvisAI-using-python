@@ -14,7 +14,6 @@ It listens to your voice commands, opens websites and applications, plays music,
 - Speaks responses using text-to-speech
 
 Jarvis-AI/
-│
 
 ├── main.py # Main voice assistant script
 
