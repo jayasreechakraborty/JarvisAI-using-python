@@ -25,12 +25,10 @@ It listens to your voice commands, opens websites and applications, plays music,
 | `Python` | Core programming language |
 
 
-### 1. Clone the Repository
+1. Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/jarvis-ai-groq.git
-cd jarvis-ai-groq
+cd jarvis-ai-groq   
 
-```bash
-pip install speechrecognition pyttsx3 requests
 
