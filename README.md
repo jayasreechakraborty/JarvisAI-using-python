@@ -13,6 +13,12 @@ It listens to your voice commands, opens websites and applications, plays music,
 - Opens desktop apps like WhatsApp, Netflix, Spotify (customizable)
 - Speaks responses using text-to-speech
 
+Jarvis-AI/
+│
+├── main.py # Main voice assistant script
+├── openaitest.py # Script to test the Groq API response
+└── README.md # Project documentation
+
 ## Tech Stack
 
 | Component | Purpose |
