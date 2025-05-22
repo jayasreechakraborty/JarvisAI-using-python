@@ -32,11 +32,98 @@ Jarvis-AI/
 | `datetime` | Time-related features |
 | `Python` | Core programming language |
 
+Setup Instructions:
 
-1. Clone the Repository
+#Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/jarvis-ai-groq.git
-cd jarvis-ai-groq   
+-git clone https://github.com/yourusername/jarvis-ai.git
+-cd jarvis-ai
+
+#Install Required Python Libraries
+
+-pip install -r requirements.txt
+
+#If requirements.txt is not available, install manually:
+
+-pip install speechrecognition pyttsx3 requests
+
+-pip install pipwin
+
+-pipwin install pyaudio
+
+Note: pyaudio is required for microphone input and may need special installation on Windows.
+
+#Setup Groq API
+
+Go to https://console.groq.com and log in.
+
+#Generate your Groq API Key.
+
+-Replace the placeholder string "USE-YOUR-API-KEY-HERE" in both main.py and openaitest.py with your actual API key.
+
+Running the Assistant
+
+-python main.py
+
+Jarvis will greet you and begin listening for your commands.
+
+#Testing Groq API Separately
+
+To verify your Groq API setup:
+
+-python openaitest.py
+
+You should get a joke or AI response from the llama3-70b-8192 model.
+
+#Example Voice Commands
+
+Command	Action:
+
+-"Open YouTube"	Opens YouTube
+
+-"Play music"	Plays the configured audio file
+
+-"Open WhatsApp"	Launches WhatsApp via Windows shell
+
+-"What is the time"	Speaks out the current time
+
+-"Using artificial intelligence..."	Prompts for an AI-powered question
+
+#Customization
+
+-Change Music Path: Edit the musicPath variable in main.py.
+
+-Modify App Launchers: Update the apps dictionary with the correct Windows App IDs for your system.
+
+-Change Name/Greeting: Update "Hello rc" to your preferred name in say() functions.
+
+#Requirements
+
+-Windows OS (tested on Windows 10/11)
+
+-Python 3.8 or newer
+
+-Microphone for voice input
+
+-Internet connection for Groq API
+
+#Powered By:
+
+-Groq AI (LLaMA 3)
+
+-SpeechRecognition
+
+-pyttsx3 TTS
+
+-Python Requests
+
+#License
+
+This project is open-source and available for educational or personal use. Feel free to modify and build upon it.
+
+#Author
+
+Made with care by RC for learning and experimenting with AI.
+
 
 
